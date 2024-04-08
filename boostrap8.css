@@ -1,0 +1,112 @@
+.input {
+	width: 70%;
+}
+
+ul{
+	list-style: none;
+}
+
+#sec {
+	background-color: #ddd;
+}
+
+#sec img {
+	height: 100%;
+}
+
+#sec div p{
+	font-family: elephant;
+	font-size: 30px;
+}
+
+.box, .card{
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.in{
+	transform: translateX(-10%);
+}
+.card img{
+	height: 370px;
+}
+div.spec {
+    font-size: 11px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    overflow: hidden;}
+.spec span {
+    position: relative;
+    padding: 0 10px;
+}
+    .spec span::before {
+    content: "";
+    border-top: 1px solid gray;
+    position: absolute;
+    top: 5px;
+    right: 100%;
+    width:15em;
+}
+
+.spec span::after {
+    content: "";
+    border-top: 1px solid gray;
+    position: absolute;
+    top: 5px;
+    left: 100%;
+    width:15em;
+}
+.form div div input{
+	height: 150px;
+}
+
+.card{
+	margin-right:3% ;
+	margin-top: 20px;
+}
+
+p.des-res {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 8px;
+    letter-spacing: 3px;
+    margin: 25px 0 0;
+    margin-bottom: 40px;
+}
+#sec1{
+	background-color: #978674;
+	font-family: elephant;
+}
+#sec1 p{
+	font-size: 50px;
+}
+#sec1 div img{
+	margin-right: 2%;
+}
+
+
+.footer{
+	background-color: #212529;
+	color: white;
+}
+
+
+@media screen and (max-width: 600px){
+	.position{
+		position: absolute;
+		z-index: 1000;
+		opacity: 1;
+		top: 50%;
+		color: black;
+
+	}
+	.position h1{
+		font-size: 20px;
+	}
+
+	.card{
+		width: 25rem;
+	}
+}
